@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Alarm Light</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1, h2 { color: #111; }
+        h1 { border-bottom: 2px solid #eaeaea; padding-bottom: 10px; }
+        h2 { margin-top: 30px; border-bottom: 1px solid #eaeaea; padding-bottom: 5px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Alarm Light</h1>
+    <p><strong>Effective Date:</strong> April 16, 2026</p>
+
+    <h2>1. General Provisions</h2>
+    <p>This Privacy Policy (hereinafter referred to as the "Policy") determines the procedure for processing personal data and measures for ensuring data security undertaken by <strong>SSO Choice</strong> (hereinafter referred to as the "Operator" or "we").</p>
+    <ul>
+        <li><strong>1.1.</strong> The Operator’s most important goal is the observance of human rights and freedoms in the processing of personal data, including the protection of the rights to privacy and personal secrets.</li>
+        <li><strong>1.2.</strong> This Policy applies to all information that the Operator can receive about users of the <strong>Alarm Light</strong> application.</li>
+    </ul>
+
+    <h2>2. Collection & Processing of Information</h2>
+    <p>We collect only the data necessary to provide the core functionality of the app, improve stability, and sync progress.</p>
+    
+    <h3>a) Personal & Account Data</h3>
+    <ul>
+        <li><strong>Account Information:</strong> If you use Google Sign-In, we collect your <strong>Email Address</strong> and <strong>Display Name</strong> via Firebase Auth to sync your subscription and "Heart Level" progress.</li>
+        <li><strong>Telegram Alerts:</strong> To enable remote monitoring, we collect your <strong>Telegram Chat ID</strong>. The app also sends the <strong>Device Model Name</strong> (e.g., "Pixel 8") to your Telegram chat for identification. We do <strong>not</strong> collect your phone number.</li>
+    </ul>
+
+    <h3>b) Technical & Connectivity Data</h3>
+    <ul>
+        <li><strong>Network Metadata:</strong> To monitor power via Wi-Fi, the app may identify your <strong>Public IP Address</strong> (via <em>ipify.org</em>). Technical checks (TCP/Ping/SSL) are performed locally to determine power status and are not stored on our servers.</li>
+        <li><strong>Firebase Services:</strong> We use <strong>Firebase Realtime Database</strong> to store anonymized device status and purchase tokens for sync, and <strong>Firebase Crashlytics/Analytics</strong> to collect anonymous reports on app stability.</li>
+    </ul>
+
+    <h3>c) Local Data</h3>
+    <ul>
+        <li><strong>Event History:</strong> Power event logs are stored exclusively in a local Room Database on your device. The Operator does not have access to these files.</li>
+    </ul>
+
+    <h2>3. Legal Grounds and Principles</h2>
+    <ul>
+        <li><strong>3.1. Legality:</strong> Processing is carried out on a legal and fair basis.</li>
+        <li><strong>3.2. Purpose Limitation:</strong> Data is processed only for specified, legitimate purposes (providing alerts, diagnostics, and syncing).</li>
+        <li><strong>3.3. Accuracy:</strong> The Operator takes measures to ensure data is relevant and accurate for the purposes of processing.</li>
+        <li><strong>3.4. Consent:</strong> By filling out forms or using the app’s cloud features, the User expresses consent to this Policy.</li>
+    </ul>
+
+    <h2>4. Device Permissions (Android)</h2>
+    <p>To function on modern Android versions (including Android 15), the app requires:</p>
+    <ul>
+        <li><strong>Foreground Service (specialUse):</strong> For continuous monitoring with a persistent notification.</li>
+        <li><strong>Battery Optimization:</strong> REQUEST_IGNORE_BATTERY_OPTIMIZATIONS to ensure alarms trigger during deep sleep.</li>
+        <li><strong>Location:</strong> Requested <strong>solely</strong> to identify the Wi-Fi SSID. We do not track physical coordinates.</li>
+        <li><strong>Camera/Storage:</strong> Used exclusively for the Flashlight alert and custom ringtone selection.</li>
+    </ul>
+
+    <h2>5. Third-Party Services</h2>
+    <p>We interact with:</p>
+    <ul>
+        <li><strong>Google:</strong> Firebase (Auth, Database, Analytics), AdMob (Advertising), and Play Store (Billing).</li>
+        <li><strong>Telegram:</strong> Bot API for alerts.</li>
+        <li><strong>ipify.org:</strong> For public IP detection. Each service has its own privacy policy which the User is encouraged to review.</li>
+    </ul>
+
+    <h2>6. User Rights & Data Retention</h2>
+    <ul>
+        <li><strong>6.1. Rights:</strong> Users have the right to receive information regarding their data processing, to require clarification, or to request the destruction of their data if it is incomplete or outdated.</li>
+        <li><strong>6.2. Withdrawal of Consent:</strong> You may withdraw consent at any time. For Firebase data (Email, UID), contact us at <strong>ssochoice@gmail.com</strong>. We will process the request within 7 business days.</li>
+        <li><strong>6.3. Retention:</strong> Local data remains until the app is uninstalled. Cloud data is kept as long as the account exists or until a deletion request is made.</li>
+    </ul>
+
+    <h2>7. Security Measures</h2>
+    <p>The Operator takes legal, organizational, and technical measures to protect personal data from unauthorized or accidental access, destruction, modification, or blocking. However, no method of transmission over the internet is 100% secure.</p>
+
+    <h2>8. Final Provisions</h2>
+    <ul>
+        <li><strong>8.1.</strong> The User can receive clarifications on any issues regarding their personal data by contacting the Operator at <strong>ssochoice@gmail.com</strong>.</li>
+        <li><strong>8.2.</strong> This document will reflect any changes in the Policy. It is valid indefinitely until replaced by a new version.</li>
+    </ul>
+
+</body>
+</html>
